@@ -1,4 +1,6 @@
 /* globals RocketChatTabBar */
+import _ from 'underscore';
+
 Template.adminSounds.helpers({
 	isReady() {
 		if (Template.instance().ready != null) {

@@ -1,4 +1,5 @@
 /* global Babel */
+import _ from 'underscore';
 const scopedChannels = ['all_public_channels', 'all_private_groups', 'all_direct_messages'];
 const validChannelChars = ['@', '#'];
 

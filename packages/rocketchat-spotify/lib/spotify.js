@@ -2,6 +2,7 @@
  * Spotify a named function that will process Spotify links or syntaxes (ex: spotify:track:1q6IK1l4qpYykOaWaLJkWG)
  * @param {Object} message - The message object
  */
+import _ from 'underscore';
 
 const process = function(message, source, callback) {
 	if (_.trim(source)) {

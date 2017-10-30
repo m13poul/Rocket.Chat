@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Meteor.startup(function() {
 	RocketChat.MessageTypes.registerType({
 		id: 'message_snippeted',

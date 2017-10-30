@@ -1,4 +1,5 @@
 /* globals InstanceStatus */
+import _ from 'underscore';
 
 RocketChat.models.Avatars = new class extends RocketChat.models._Base {
 	constructor() {

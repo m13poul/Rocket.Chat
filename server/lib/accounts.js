@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 const accountsConfig = {
 	forbidClientAccountCreation: true,
 	loginExpirationInDays: RocketChat.settings.get('Accounts_LoginExpiration')

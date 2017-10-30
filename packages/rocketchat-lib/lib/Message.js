@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 RocketChat.Message = {
 	parse(msg, language) {
 		const messageType = RocketChat.MessageTypes.getType(msg);

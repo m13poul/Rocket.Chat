@@ -1,4 +1,6 @@
 // @TODO implementar 'clicar na notificacao' abre a janela do chat
+import _ from 'underscore';
+
 const KonchatNotification = {
 	notificationStatus: new ReactiveVar,
 

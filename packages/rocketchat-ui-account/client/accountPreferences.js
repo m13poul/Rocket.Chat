@@ -1,4 +1,5 @@
 /*globals defaultUserLanguage, KonchatNotification */
+import _ from 'underscore';
 import toastr from 'toastr';
 
 const notificationLabels = {

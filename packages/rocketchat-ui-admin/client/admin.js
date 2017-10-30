@@ -1,5 +1,7 @@
 /*globals jscolor, i18nDefaultQuery */
+import _ from 'underscore';
 import toastr from 'toastr';
+
 const TempSettings = new Mongo.Collection(null);
 
 RocketChat.TempSettings = TempSettings;

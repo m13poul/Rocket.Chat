@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Template.listPrivateGroupsFlex.helpers({
 	groups() {
 		return Template.instance().groups.get();

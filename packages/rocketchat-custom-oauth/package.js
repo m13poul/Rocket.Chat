@@ -9,7 +9,6 @@ Package.onUse(function(api) {
 	api.use('check');
 	api.use('oauth');
 	api.use('oauth2');
-	api.use('underscore');
 	api.use('ecmascript');
 	api.use('accounts-oauth');
 	api.use('service-configuration');

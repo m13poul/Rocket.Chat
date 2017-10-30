@@ -1,4 +1,6 @@
 /* globals __meteor_bootstrap__ */
+import _ from 'underscore';
+
 const CoffeeScript = Npm.require('coffee-script');
 CoffeeScript.register();
 const Hubot = Npm.require('hubot');

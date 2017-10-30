@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 //
 // IssueLink is a named function that will add issue links
 // @param {Object} message - The message object

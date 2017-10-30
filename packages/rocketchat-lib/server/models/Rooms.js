@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 class ModelRooms extends RocketChat.models._Base {
 	constructor() {
 		super(...arguments);

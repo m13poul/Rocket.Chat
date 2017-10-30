@@ -7,7 +7,6 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.use('ecmascript');
-	api.use('underscore');
 	api.use('templating');
 	api.use('underscorestring:underscore.string');
 	api.use('rocketchat:lib');

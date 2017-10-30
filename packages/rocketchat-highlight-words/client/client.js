@@ -2,6 +2,7 @@
  * Hilights is a named function that will process Highlights
  * @param {Object} message - The message object
  */
+import _ from 'underscore';
 
 function HighlightWordsClient(message) {
 	let msg = message;

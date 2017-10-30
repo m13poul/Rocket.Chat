@@ -1,4 +1,5 @@
 /*globals RocketChatTabBar, AdminChatRoom */
+import _ from 'underscore';
 
 this.AdminChatRoom = new Mongo.Collection('rocketchat_room');
 

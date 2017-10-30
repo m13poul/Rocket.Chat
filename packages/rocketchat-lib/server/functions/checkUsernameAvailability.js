@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 RocketChat.checkUsernameAvailability = function(username) {
 	return RocketChat.settings.get('Accounts_BlockedUsernameList', function(key, value) {
 		const usernameBlackList = _.map(value.split(','), function(username) {

@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 RocketChat.placeholders = {};
 
 RocketChat.placeholders.replace = function(str, data) {

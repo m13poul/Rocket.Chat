@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 //
 // AutoLinker is a named function that will replace links on messages
 // @param {Object} message - The message object

@@ -1,4 +1,5 @@
 /*globals OnePassword, device, setLanguage */
+import _ from 'underscore';
 import toastr from 'toastr';
 
 Template.loginForm.helpers({

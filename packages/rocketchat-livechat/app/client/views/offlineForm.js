@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Template.offlineForm.helpers({
 	error() {
 		return Template.instance().error.get();

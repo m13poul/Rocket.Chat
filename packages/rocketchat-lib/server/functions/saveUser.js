@@ -1,4 +1,6 @@
 /* globals Gravatar */
+import _ from 'underscore';
+
 RocketChat.saveUser = function(userId, userData) {
 	const user = RocketChat.models.Users.findOneById(userId);
 	const existingRoles = _.pluck(RocketChat.authz.getRoles(), '_id');

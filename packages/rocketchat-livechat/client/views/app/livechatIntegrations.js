@@ -1,5 +1,7 @@
-import toastr from 'toastr';
 /* globals LivechatIntegration */
+import _ from 'underscore';
+import toastr from 'toastr';
+
 Template.livechatIntegrations.helpers({
 	webhookUrl() {
 		const setting = LivechatIntegration.findOne('Livechat_webhookUrl');

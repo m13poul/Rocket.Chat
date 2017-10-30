@@ -1,4 +1,5 @@
 /* global logger, processWebhookMessage */
+import _ from 'underscore';
 import moment from 'moment';
 
 RocketChat.integrations.triggerHandler = new class RocketChatIntegrationHandler {

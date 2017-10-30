@@ -1,4 +1,6 @@
 /* globals chatMessages*/
+import _ from 'underscore';
+
 const roomFiles = new Mongo.Collection('room_files');
 
 Template.uploadedFilesList.helpers({

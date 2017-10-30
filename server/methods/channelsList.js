@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Meteor.methods({
 	channelsList(filter, channelType, limit, sort) {
 		this.unblock();

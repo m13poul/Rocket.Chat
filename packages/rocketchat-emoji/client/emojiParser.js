@@ -1,4 +1,6 @@
 /* globals isSetNotNull */
+import _ from 'underscore';
+
 /*
  * emojiParser is a function that will replace emojis
  * @param {Object} message - The message object

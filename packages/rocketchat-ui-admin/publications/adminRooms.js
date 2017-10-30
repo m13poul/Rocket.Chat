@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Meteor.publish('adminRooms', function(filter, types, limit) {
 	if (!this.userId) {
 		return this.ready();

@@ -1,4 +1,6 @@
 /* globals RocketChatTabBar */
+import _ from 'underscore';
+
 Template.adminUsers.helpers({
 	isReady() {
 		const instance = Template.instance();

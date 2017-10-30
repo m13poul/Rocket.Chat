@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 const commands = {
 	go(data) {
 		if (typeof data.path !== 'string' || data.path.trim().length === 0) {

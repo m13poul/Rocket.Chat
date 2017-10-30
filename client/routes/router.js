@@ -1,4 +1,5 @@
 /* globals KonchatNotification */
+import _ from 'underscore';
 
 Blaze.registerHelper('pathFor', function(path, kw) {
 	return FlowRouter.path(path, kw.hash);

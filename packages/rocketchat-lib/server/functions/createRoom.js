@@ -1,4 +1,6 @@
 /* globals RocketChat */
+import _ from 'underscore';
+
 RocketChat.createRoom = function(type, name, owner, members, readOnly, extraData={}) {
 	name = s.trim(name);
 	owner = s.trim(owner);

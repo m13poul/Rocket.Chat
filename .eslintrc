@@ -3,7 +3,7 @@
 		"sourceType": "module",
 		"ecmaVersion": 2017,
 		"ecmaFeatures": {
-				"experimentalObjectRestSpread" : true,
+				"experimentalObjectRestSpread" : true
 		}
 	},
 	"env": {
@@ -89,7 +89,6 @@
 		"object-shorthand": 2
 	},
 	"globals": {
-		"_"                           : false,
 		"__meteor_runtime_config__"   : false,
 		"AccountBox"                  : false,
 		"Accounts"                    : false,

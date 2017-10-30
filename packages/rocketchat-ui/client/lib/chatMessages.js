@@ -1,4 +1,5 @@
 /* globals MsgTyping */
+import _ from 'underscore';
 import moment from 'moment';
 import toastr from 'toastr';
 this.ChatMessages = class ChatMessages {

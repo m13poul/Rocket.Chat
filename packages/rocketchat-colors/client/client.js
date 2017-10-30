@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 //
 // HexColorPreview is a named function that will process Colors
 // @param {Object} message - The message object

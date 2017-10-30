@@ -1,4 +1,6 @@
+import _ from 'underscore';
 import toastr from 'toastr';
+
 this.handleError = function(error, useToastr = true) {
 	if (_.isObject(error.details)) {
 		for (const key in error.details) {

@@ -1,4 +1,5 @@
 /* global renderMessageBody:true */
+import _ from 'underscore';
 
 renderMessageBody = function(msg) {
 	msg.html = msg.msg;

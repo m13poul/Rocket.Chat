@@ -27,7 +27,6 @@ Package.onUse(function(api) {
 	api.use('check');
 	api.use('tracker');
 	api.use('ddp-rate-limiter');
-	api.use('underscore');
 	api.use('mongo');
 	api.use('oauth');
 	api.use('underscorestring:underscore.string@3.3.4');

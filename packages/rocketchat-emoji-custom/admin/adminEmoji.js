@@ -1,4 +1,6 @@
 /* globals RocketChatTabBar */
+import _ from 'underscore';
+
 Template.adminEmoji.helpers({
 	isReady() {
 		if (Template.instance().ready != null) {

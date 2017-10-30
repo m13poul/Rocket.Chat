@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Template.listCombinedFlex.helpers({
 	channel() {
 		return Template.instance().channelsList.get();

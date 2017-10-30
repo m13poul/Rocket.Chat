@@ -1,4 +1,6 @@
 /* globals RocketChatFileEmojiCustomInstance */
+import _ from 'underscore';
+
 Meteor.methods({
 	insertOrUpdateEmoji(emojiData) {
 		if (!RocketChat.authz.hasPermission(this.userId, 'manage-emoji')) {

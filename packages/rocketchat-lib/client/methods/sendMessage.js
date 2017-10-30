@@ -1,3 +1,5 @@
+import _ from 'underscore';
+
 Meteor.methods({
 	sendMessage(message) {
 		if (!Meteor.userId() || _.trim(message.msg) === '') {

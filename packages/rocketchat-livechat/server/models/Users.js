@@ -1,3 +1,4 @@
+import _ from 'underscore';
 /**
  * Sets an user as (non)operator
  * @param {string} _id - User's _id

@@ -1,3 +1,4 @@
+import _ from 'underscore';
 
 /*
  * Me is a named function that will replace /me commands
